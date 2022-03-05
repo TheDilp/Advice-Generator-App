@@ -33,7 +33,6 @@ body {
 
 .adviceText {
     font-size: 28px;
-
     color: hsl(193, 38%, 86%)
 }
 
@@ -47,19 +46,18 @@ body {
 
 /** Card button Style **/
 .cardButtonContainer {
-    position: absolute;
+    background-color: red;
+    position: relative;
     display: flex;
     justify-content: center;
-
 }
 
 .cardButton {
+    position: absolute;
     background: none;
     border: none;
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
     background-color: hsl(150, 100%, 66%);
-
-
 }
