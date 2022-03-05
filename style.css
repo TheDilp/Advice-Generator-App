@@ -1,9 +1,21 @@
+:root {
+
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+    --font-size: 28px;
+    --font-family: "Manrope", serif;
+    --font-weight: 800;
+}
+
 body {
     width: 100vw;
     height: 100vh;
-    background-color: hsl(218, 23%, 16%);
-    font-family: Manrope;
-    font-weight: 800;
+    background-color: var(--dark-blue);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
 }
 
 .container {
@@ -23,17 +35,21 @@ body {
     margin-top: 20%;
     padding: 2rem;
     border-radius: 3%;
-    background-color: hsl(217, 19%, 24%);
+    background-color: var(--dark-grayish-blue)
 }
 
 /** Card text Style **/
 .adviceNumber {
-    color: hsl(150, 100%, 66%);
+    color: var(--neon-green);
+    letter-spacing: 0.25rem;
+    padding: 0 0 1.25rem 0;
+    font-size: 10px;
+
 }
 
 .adviceText {
     font-size: 28px;
-    color: hsl(193, 38%, 86%)
+    color: var(--light-cyan);
 }
 
 /** Card divider Style **/
@@ -46,7 +62,6 @@ body {
 
 /** Card button Style **/
 .cardButtonContainer {
-    background-color: red;
     position: relative;
     display: flex;
     justify-content: center;
@@ -59,5 +74,5 @@ body {
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
-    background-color: hsl(150, 100%, 66%);
+    background-color: var(--neon-green)
 }
