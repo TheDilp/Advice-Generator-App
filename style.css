@@ -46,6 +46,7 @@ body {
 }
 
 .adviceNumber {
+    width: 100%;
     color: var(--neon-green);
     letter-spacing: 0.25rem;
     font-size: 10px;
@@ -54,6 +55,7 @@ body {
 }
 
 .adviceText {
+    width: 100%;
     padding: 0 1.5rem;
     font-size: var(--font-size);
     color: var(--light-cyan);
@@ -81,9 +83,36 @@ body {
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
-    background-color: var(--neon-green)
+    background-color: var(--neon-green);
+    transition: box-shadow ease 0.1s;
+
 }
 
 .cardButton:active {
-    
+    box-shadow: 0 0 2rem var(--neon-green);
+    transition: box-shadow ease 0.05s;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        align-items: center;
+    }
+
+    .card {
+        width: 50vw;
+        margin-top: 0;
+        border-radius: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        align-items: center;
+    }
+
+    .card {
+        width: 33vw;
+        margin-top: 0;
+        border-radius: 1rem;
+    }
 }
