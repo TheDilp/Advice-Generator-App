@@ -30,7 +30,7 @@ body {
 
 .card {
     text-align: center;
-    width: 92%;
+    width: 91.5%;
     margin-top: 7.5rem;
     padding: 2rem 0rem;
     border-radius: 3%;
@@ -50,7 +50,7 @@ body {
     color: var(--neon-green);
     letter-spacing: 0.25rem;
     font-size: 10px;
-    padding: 0.5rem 0 1.25rem 0;
+    padding: 0.75rem 0 1.75rem 0;
 
 }
 
@@ -59,6 +59,7 @@ body {
     padding: 0 1.5rem;
     font-size: var(--font-size);
     color: var(--light-cyan);
+    line-height: 2rem;
 }
 
 /** Card divider Style **/
@@ -66,7 +67,7 @@ body {
 .cardDividerContainer {
     display: flex;
     justify-content: center;
-    padding: 2rem 0;
+    padding: 1.75rem 0;
 }
 
 /** Card button Style **/
@@ -85,6 +86,7 @@ body {
     border-radius: 50%;
     background-color: var(--neon-green);
     transition: box-shadow ease 0.1s;
+    cursor: pointer;
 
 }
 
@@ -93,26 +95,30 @@ body {
     transition: box-shadow ease 0.05s;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1440px) {
     .container {
         align-items: center;
     }
 
     .card {
-        width: 50vw;
-        margin-top: 0;
+        width: 33.75rem;
+        padding: 3.25rem 1.2rem 2rem 1.2rem;
+        margin-top: -1.85rem;
         border-radius: 1rem;
     }
-}
 
-@media only screen and (min-width: 1024px) {
-    .container {
-        align-items: center;
+    .adviceNumber {
+        padding-top: 0rem;
+        font-size: 13px;
     }
 
-    .card {
-        width: 33vw;
-        margin-top: 0;
-        border-radius: 1rem;
+    .adviceText {
+        font-size: 28px;
+        line-height: 2.5rem;
+    }
+
+    .cardDividerContainer {
+        /* margin-bottom: 2rem; */
+        padding: 2rem 0 2.5rem 0;
     }
 }

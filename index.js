@@ -14,7 +14,7 @@ function fetchAdvice() {
     fetch("https://api.adviceslip.com/advice", {
         cache: "no-cache"
     }).then(response => response.json()).then(data => {
-        let adviceNumberContent = `Advice #${data.slip.id}`;
+        let adviceNumberContent = `ADVICE #${data.slip.id}`;
         let adviceTextContent = `“${data.slip.advice}“`;
 
         adviceNumber.textContent = adviceNumberContent;
