@@ -1,0 +1,52 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+    font-family: Manrope;
+    font-weight: 800;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    text-align: center;
+    width: 92%;
+    /* height: 30%; */
+    margin-top: 20%;
+    padding: 2rem;
+    border-radius: 3%;
+    background-color: hsl(217, 19%, 24%);
+}
+
+.cardDividerContainer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.cardButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.cardButton {
+    background: none;
+    border: none;
+
+}
+
+.adviceNumber {
+    color: hsl(150, 100%, 66%);
+}
+
+.adviceText {
+    font-size: 28px;
+
+    color: hsl(193, 38%, 86%)
+}
