@@ -14,6 +14,8 @@ body {
     align-items: flex-start;
 }
 
+/** Card Style **/
+
 .card {
     text-align: center;
     width: 92%;
@@ -24,12 +26,26 @@ body {
     background-color: hsl(217, 19%, 24%);
 }
 
+/** Card text Style **/
+.adviceNumber {
+    color: hsl(150, 100%, 66%);
+}
+
+.adviceText {
+    font-size: 28px;
+
+    color: hsl(193, 38%, 86%)
+}
+
+/** Card divider Style **/
+
 .cardDividerContainer {
     display: flex;
     justify-content: center;
     padding: 2rem 0;
 }
 
+/** Card button Style **/
 .cardButtonContainer {
     position: absolute;
     display: flex;
@@ -46,14 +62,4 @@ body {
     background-color: hsl(150, 100%, 66%);
 
 
-}
-
-.adviceNumber {
-    color: hsl(150, 100%, 66%);
-}
-
-.adviceText {
-    font-size: 28px;
-
-    color: hsl(193, 38%, 86%)
 }
