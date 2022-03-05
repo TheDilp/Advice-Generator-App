@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-advice-generator-k5MlUTT-p)
+- [Live site](https://thedilp.github.io/Advice-Generator-App/)
 
 ## My process
 
