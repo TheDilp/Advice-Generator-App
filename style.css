@@ -31,7 +31,7 @@ body {
 .card {
     text-align: center;
     width: 92%;
-    margin-top: 20%;
+    margin-top: 7.5rem;
     padding: 2rem 0rem;
     border-radius: 3%;
     background-color: var(--dark-grayish-blue)
